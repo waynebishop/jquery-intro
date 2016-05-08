@@ -1,5 +1,27 @@
-/*body {
-	background-color: red; 
-}	*/
+body p {
+	color: green;
+}
 
-/*Comment goes here*/
+#container {
+	position: relative;
+	margin-left: 500px;
+	height: 400px;
+}
+
+#container img,
+#container p {
+	position: absolute;
+}
+
+img {
+	-moz-transition: opacity 1s ease-in-out;
+	transition:opacity 1s ease-in-out;
+}
+
+.transparent {
+	opacity: 0;
+}
+
+#to-top {
+	margin: 700px;
+}
